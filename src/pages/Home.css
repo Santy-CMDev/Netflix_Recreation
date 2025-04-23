@@ -1,0 +1,15 @@
+.home-page {
+  background-color: var(--netflix-black);
+  padding-top: 0; 
+}
+
+.rows-container {
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 40px;
+}
+
+.row {
+  margin-bottom: 40px;
+}
