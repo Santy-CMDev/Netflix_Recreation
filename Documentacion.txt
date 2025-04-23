@@ -1,0 +1,90 @@
+Netflix Clone - Documentación
+
+📋 Descripción del Proyecto
+Este proyecto es una recreación de la interfaz de usuario de Netflix, desarrollada con React y TypeScript. Incluye características visuales y de diseño similares a la plataforma original de streaming.
+
+🛠️ Tecnologías Utilizadas
+- React 19.0.0
+- TypeScript
+- Vite 6.3.1
+- React Router DOM 7.5.1
+- Styled Components 6.1.17
+- Axios 1.8.4
+
+📦 Requisitos Previos
+- Node.js (versión recomendada: 18.x o superior)
+- npm o yarn
+
+🚀 Instalación
+1. Clonar el repositorio
+```bash
+git clone <url-del-repositorio>
+cd Recreacion-NETFLIX
+ ```
+```
+
+2. Instalar dependencias
+```bash
+npm install
+ ```
+
+3. Iniciar el servidor de desarrollo
+```bash
+npm run dev
+ ```
+
+🏗️ Estructura del Proyecto
+```plaintext
+src/
+├── components/
+│   ├── Banner/
+│   ├── Header/
+│   └── Row/
+├── pages/
+│   └── Home/
+├── App.tsx
+└── main.tsx
+ ```
+
+🎨 Características Implementadas
+- Navbar con efecto de transparencia al scroll
+- Banner dinámico con información de películas/series
+- Filas de contenido con efectos hover
+- Diseño responsive
+- Sistema de navegación entre páginas
+- Efectos visuales similares a Netflix
+
+🔧 Scripts Disponibles
+- npm run dev : Inicia el servidor de desarrollo
+- npm run build : Compila el proyecto para producción
+- npm run lint : Ejecuta el linter
+- npm run preview : Vista previa de la versión de producción
+
+📝 Variables de Entorno
+El proyecto utiliza las siguientes variables de CSS personalizadas:
+
+```css
+:root {
+  --netflix-red: #e50914;
+  --netflix-black: #141414;
+  --netflix-dark-grey: #222;
+  --netflix-light-grey: #ccc;
+  --netflix-white: #fff;
+}
+ ```
+```
+
+🤝 Contribución
+Si deseas contribuir al proyecto:
+
+1. Haz un Fork del repositorio
+2. Crea una rama para tu característica ( git checkout -b feature/AmazingFeature )
+3. Haz commit de tus cambios ( git commit -m 'Add some AmazingFeature' )
+4. Push a la rama ( git push origin feature/AmazingFeature )
+5. Abre un Pull Request
+
+📄 Licencia
+Este proyecto es una recreación con fines educativos y no está asociado oficialmente con Netflix.
+
+⚠️ Nota Importante
+Este proyecto es una recreación educativa y no debe utilizarse con fines comerciales. Todas las imágenes y marcas registradas pertenecen a sus respectivos propietarios.
